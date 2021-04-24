@@ -3,14 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		12D58FA1E19F1704172C33F8 /* Pods_money_management_app_money_management_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323B8AC763010E796084E806 /* Pods_money_management_app_money_management_appUITests.framework */; };
+		5E8FB3502633A0FB00EA6096 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FB34F2633A0FB00EA6096 /* LoginViewController.swift */; };
+		5E8FB3552633A16700EA6096 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FB3542633A16700EA6096 /* MainViewController.swift */; };
 		5EE9B59C262F632200389E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9B59B262F632200389E16 /* AppDelegate.swift */; };
 		5EE9B59E262F632200389E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9B59D262F632200389E16 /* SceneDelegate.swift */; };
-		5EE9B5A0262F632200389E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9B59F262F632200389E16 /* ViewController.swift */; };
 		5EE9B5A3262F632200389E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE9B5A1262F632200389E16 /* Main.storyboard */; };
 		5EE9B5A5262F632600389E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE9B5A4262F632600389E16 /* Assets.xcassets */; };
 		5EE9B5A8262F632600389E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE9B5A6262F632600389E16 /* LaunchScreen.storyboard */; };
@@ -42,10 +43,11 @@
 		03F643CDEDD548BA48869ADD /* Pods-money-management-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-management-app.debug.xcconfig"; path = "Target Support Files/Pods-money-management-app/Pods-money-management-app.debug.xcconfig"; sourceTree = "<group>"; };
 		323B8AC763010E796084E806 /* Pods_money_management_app_money_management_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_money_management_app_money_management_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BB80A3E1A9F9D719A7060C /* Pods-money-management-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-management-app.release.xcconfig"; path = "Target Support Files/Pods-money-management-app/Pods-money-management-app.release.xcconfig"; sourceTree = "<group>"; };
+		5E8FB34F2633A0FB00EA6096 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5E8FB3542633A16700EA6096 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5EE9B598262F632100389E16 /* money-management-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "money-management-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE9B59B262F632200389E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EE9B59D262F632200389E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EE9B59F262F632200389E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EE9B5A2262F632200389E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EE9B5A4262F632600389E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EE9B5A7262F632600389E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				BC4C8BFAB629A49688041A12 /* Pods-money-management-appTests.debug.xcconfig */,
 				6F0CA14E10BB1ACC332541F8 /* Pods-money-management-appTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,11 +133,12 @@
 			children = (
 				5EE9B59B262F632200389E16 /* AppDelegate.swift */,
 				5EE9B59D262F632200389E16 /* SceneDelegate.swift */,
-				5EE9B59F262F632200389E16 /* ViewController.swift */,
 				5EE9B5A1262F632200389E16 /* Main.storyboard */,
 				5EE9B5A4262F632600389E16 /* Assets.xcassets */,
 				5EE9B5A6262F632600389E16 /* LaunchScreen.storyboard */,
 				5EE9B5A9262F632600389E16 /* Info.plist */,
+				5E8FB34F2633A0FB00EA6096 /* LoginViewController.swift */,
+				5E8FB3542633A16700EA6096 /* MainViewController.swift */,
 			);
 			path = "money-management-app";
 			sourceTree = "<group>";
@@ -407,9 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE9B5A0262F632200389E16 /* ViewController.swift in Sources */,
+				5E8FB3502633A0FB00EA6096 /* LoginViewController.swift in Sources */,
 				5EE9B59C262F632200389E16 /* AppDelegate.swift in Sources */,
 				5EE9B59E262F632200389E16 /* SceneDelegate.swift in Sources */,
+				5E8FB3552633A16700EA6096 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
