@@ -6,9 +6,13 @@
 //
 
 import UIKit
+import Parse
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var moneyBudget: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,4 +30,17 @@ class MainViewController: UIViewController {
     }
     */
 
+    //Adding the feature to logout - Erlis
+    @IBAction func logoutButton(_ sender: Any) {
+        
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        
+        let delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        
+        delegate.window?.rootViewController = loginViewController
+        
+    }
 }
