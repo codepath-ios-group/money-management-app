@@ -11,6 +11,9 @@ This app allows users to manage their spending and facilitate goals to save mone
 ### Description
 Users will insert expenses and deposits, as well as their category, and it will add it to the appropiate column to show users their spending habits.
 
+### App Walkthrough GIF
+![](https://i.imgur.com/DEKoySy.gif)
+
 ### App Evaluation
 - **Category:** Money Management / Finance
 - **Mobile:** Its a view and input app, it does have a scroll feature, and it's mainly used to help people to manage their budget and spend smartly.
@@ -25,14 +28,14 @@ Users will insert expenses and deposits, as well as their category, and it will 
 
 **Required Must-have Stories**
 
-- [x] User can log in.
-- [x] User can create a new account.
-- [x] User can log out.
-- [ ] User can input an expense.
-- [ ] User can input a deposit.
-- [ ] User can categorize expenses.
-- [x] User can see a budget.
-- [ ] User can see how much they've spent and earned.
+ [] User can log in.
+* User can create a new account.
+* User can log out.
+* User can input an expense.
+* User can input a deposit.
+* User can categorize expenses.
+* User can create a budget.
+* User can see how much they've spent and earned.
 
 **Optional Nice-to-have Stories**
 
@@ -105,7 +108,7 @@ Users will insert expenses and deposits, as well as their category, and it will 
     - (Read/GET) Query the budget
     - (Update/PUT) Update the current budget
     - (Read/GET) Query all expensePrice
-```swift
+```
 let query = PFQuery(className:"expensePrice")
 query.order(byDescending: "createdAt")
 query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
