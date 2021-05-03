@@ -15,7 +15,25 @@ class TransactionsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var categoryField: UITextField!
+    
+    @IBOutlet weak var amountField: UITextField!
+    
+    
+    @IBAction func submit(_ sender: Any) {
+    }
+    //start mohamed
+    //@IBAction func addExpense(_ sender: Any) {
+   // }
+    
+    //@IBAction func addDeposit(_ sender: Any) {
+    //}
 
+    
+    
+    //end mohamed
+    
+    
     /*
     // MARK: - Navigation
 
