@@ -12,7 +12,7 @@ This app allows users to manage their spending and facilitate goals to save mone
 Users will insert expenses and deposits, as well as their category, and it will add it to the appropiate column to show users their spending habits.
 
 ### App Walkthrough GIF
-![](https://i.imgur.com/DEKoySy.gif)
+![](https://i.imgur.com/OKfVvwM.gif)
 
 ### App Evaluation
 - **Category:** Money Management / Finance
@@ -31,9 +31,9 @@ Users will insert expenses and deposits, as well as their category, and it will 
 - [x] User can log in.
 - [x] User can create a new account.
 - [x] User can log out.
-- [x] User can input an expense.
-- [x] User can input a deposit.
-- [x] User can categorize expenses.
+- [ ] User can input an expense.
+- [ ] User can input a deposit.
+- [ ] User can categorize expenses.
 - [x] User can see a budget.
 - [ ] User can see how much they've spent and earned.
 
