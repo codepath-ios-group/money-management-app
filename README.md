@@ -31,9 +31,9 @@ Users will insert expenses and deposits, as well as their category, and it will 
 - [x] User can log in.
 - [x] User can create a new account.
 - [x] User can log out.
-- [ ] User can input an expense.
-- [ ] User can input a deposit.
-- [ ] User can categorize expenses.
+- [x] User can input an expense.
+- [x] User can input a deposit.
+- [x] User can categorize expenses.
 - [x] User can see a budget.
 - [ ] User can see how much they've spent and earned.
 
