@@ -117,51 +117,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="lku-2N-h2k" customClass="ExpensesCell" customModule="money_management_app" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InputsCell" rowHeight="145" id="f6a-Fc-rdt" customClass="InputsCell" customModule="money_management_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="145"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lku-2N-h2k" id="lFG-9E-45I">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="145"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expense" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g3B-KC-Xus">
-                                                    <rect key="frame" x="155" y="6" width="104" height="34"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Starbucks" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zzJ-9b-aW5">
-                                                    <rect key="frame" x="290" y="45" width="104" height="29"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-$100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cw0-1T-Due">
-                                                    <rect key="frame" x="132" y="102" width="150" height="27"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="04.24.2021" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOI-Ny-Hpl">
-                                                    <rect key="frame" x="20" y="45" width="110" height="27"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="categoryExpense" destination="zzJ-9b-aW5" id="7L0-bc-xDo"/>
-                                            <outlet property="dateExpense" destination="cOI-Ny-Hpl" id="78D-UY-WCK"/>
-                                            <outlet property="expenses" destination="cw0-1T-Due" id="8kd-si-iO4"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="f6a-Fc-rdt" customClass="DepositsCell" customModule="money_management_app" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="173" width="414" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f6a-Fc-rdt" id="yfp-kO-zUR">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="145"/>
@@ -169,37 +126,49 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deposit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bdg-M7-6UE">
                                                     <rect key="frame" x="160" y="11" width="94" height="34"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                                    <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="04.24.2021" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3I-Np-e0o">
-                                                    <rect key="frame" x="20" y="45" width="110" height="27"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04.24.2021" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3I-Np-e0o">
+                                                    <rect key="frame" x="28" y="46" width="110" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ATM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y6g-Ag-nJi">
-                                                    <rect key="frame" x="321" y="43" width="48" height="29"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+$400" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxg-gA-bg4">
-                                                    <rect key="frame" x="132" y="107" width="150" height="27"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+$400" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxg-gA-bg4" userLabel="Amount">
+                                                    <rect key="frame" x="132" y="108" width="150" height="34"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="150" id="EAE-F7-28Z"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ATM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y6g-Ag-nJi">
+                                                    <rect key="frame" x="337" y="44" width="48" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Kxg-gA-bg4" firstAttribute="bottom" secondItem="yfp-kO-zUR" secondAttribute="bottomMargin" constant="8" id="5Ef-Fb-YDJ"/>
+                                                <constraint firstItem="o3I-Np-e0o" firstAttribute="bottom" secondItem="Y6g-Ag-nJi" secondAttribute="bottom" id="6j9-Vh-DR6"/>
+                                                <constraint firstItem="Kxg-gA-bg4" firstAttribute="top" secondItem="o3I-Np-e0o" secondAttribute="bottom" constant="35" id="Dfg-VV-5In"/>
+                                                <constraint firstItem="Kxg-gA-bg4" firstAttribute="centerX" secondItem="bdg-M7-6UE" secondAttribute="centerX" id="ZiH-AT-wG3"/>
+                                                <constraint firstItem="o3I-Np-e0o" firstAttribute="firstBaseline" secondItem="Y6g-Ag-nJi" secondAttribute="baseline" id="e4E-cE-hjz"/>
+                                                <constraint firstItem="o3I-Np-e0o" firstAttribute="leading" secondItem="yfp-kO-zUR" secondAttribute="leadingMargin" constant="8" id="hSc-Yo-I1w"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="dateDeposit" destination="o3I-Np-e0o" id="yCS-xT-UXC"/>
-                                            <outlet property="deposits" destination="Kxg-gA-bg4" id="Olb-Zb-Vf5"/>
+                                            <outlet property="amount" destination="Kxg-gA-bg4" id="UQG-dp-WAE"/>
+                                            <outlet property="category" destination="Y6g-Ag-nJi" id="56K-Qq-tQW"/>
+                                            <outlet property="date" destination="o3I-Np-e0o" id="ThF-tR-NcD"/>
+                                            <outlet property="type" destination="bdg-M7-6UE" id="wPF-bu-UCx"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -233,6 +202,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="moneyBudget" destination="jQF-qB-cBb" id="5MI-yw-IrR"/>
+                        <outlet property="tableView" destination="6R2-nW-jRB" id="RGU-gq-rNs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WqK-Fw-nIu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -297,8 +267,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="amountField" destination="bbT-c7-f58" id="esi-Vz-VK9"/>
-                        <outlet property="categoryField" destination="ba0-ga-GcH" id="4to-1l-yGp"/>
+                        <outlet property="amount" destination="bbT-c7-f58" id="Rvs-BV-pOs"/>
+                        <outlet property="category" destination="ba0-ga-GcH" id="gBS-F7-WgW"/>
+                        <outlet property="typeControl" destination="muB-UA-gvQ" id="tD1-lI-s6p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0GP-o8-wkg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

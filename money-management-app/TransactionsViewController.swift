@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class TransactionsViewController: UIViewController {
 
@@ -15,12 +16,32 @@ class TransactionsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var categoryField: UITextField!
+
+    @IBOutlet weak var category: UITextField!
+    @IBOutlet weak var typeControl: UISegmentedControl!
     
-    @IBOutlet weak var amountField: UITextField!
-    
-    
+    @IBOutlet weak var amount: UITextField!
+
     @IBAction func submit(_ sender: Any) {
+        let input = PFObject(className: "Input")
+        if(typeControl.selectedSegmentIndex == 0){
+            input["type"] = "Expense"
+        }
+        else{
+            input["type"] = "Deposit"
+        }
+        input["category"] = category.text
+        input["amount"] = amount.text
+        input["owner"] = PFUser.current()
+        input.saveInBackground { (success, error) in
+            if success{
+                print("Saved!")
+            }
+            else{
+                print("error!")
+            }
+        }
+        dismiss(animated: true, completion: nil)
     }
     //start mohamed
     //@IBAction func addExpense(_ sender: Any) {

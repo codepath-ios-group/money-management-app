@@ -9,15 +9,15 @@
 ## Overview
 This app allows users to manage their spending and facilitate goals to save money. Also, it enables users to control their spending habits.
 ### Description
-Users will insert expenses and deposits, as well as their category, and it will add it to the appropiate column to show users their spending habits.
+Users will insert expenses and deposits, as well as their category, and it will add it to the appropriate column to show users their spending habits.
 
 ### App Walkthrough GIF
-![](https://i.imgur.com/OKfVvwM.gif)
+![](https://i.imgur.com/x4afkWh.gif)
 
 ### App Evaluation
 - **Category:** Money Management / Finance
 - **Mobile:** Its a view and input app, it does have a scroll feature, and it's mainly used to help people to manage their budget and spend smartly.
-- **Story:** Allows users to input their budget and their expenses. The user can create catagories of their choice and manage their budget and help with their spending habits
+- **Story:** Allows users to input their budget and their expenses. The user can create categories of their choice and manage their budget and help with their spending habits
 - **Market:** User can manage their budget by using the app and also make good spending habits. The user can add multiple category  and use each of them to see how much is he/she spending, and at which category 
 - **Habit:** Users use this app on a everyday basis in order to track their expenses and deposits and create a manageable budget.
 - **Scope:** V1 will track just purely expenses and deposits, V2 will show areas where you are spending the most money and remind you to spend less.
@@ -31,10 +31,11 @@ Users will insert expenses and deposits, as well as their category, and it will 
 - [x] User can log in.
 - [x] User can create a new account.
 - [x] User can log out.
-- [ ] User can input an expense.
-- [ ] User can input a deposit.
-- [ ] User can categorize expenses.
+- [x] User can input an expense.
+- [x] User can input a deposit.
+- [x] User can categorize expenses.
 - [x] User can see a budget.
+- [ ] User can properly see their inputs with the proper constraints.
 - [ ] User can see how much they've spent and earned.
 
 **Optional Nice-to-have Stories**

@@ -18,8 +18,7 @@
 		5EE9B5B3262F632600389E16 /* money_management_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9B5B2262F632600389E16 /* money_management_appTests.swift */; };
 		5EE9B5BE262F632600389E16 /* money_management_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9B5BD262F632600389E16 /* money_management_appUITests.swift */; };
 		6AAC3896B08581D476071887 /* Pods_money_management_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731F18B88EAD707A2D6B0BD7 /* Pods_money_management_app.framework */; };
-		C26E58C726349B6A009B0C04 /* ExpensesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E58C626349B6A009B0C04 /* ExpensesCell.swift */; };
-		C26E58CC26349BA8009B0C04 /* DepositsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E58CB26349BA8009B0C04 /* DepositsCell.swift */; };
+		C26E58CC26349BA8009B0C04 /* InputsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E58CB26349BA8009B0C04 /* InputsCell.swift */; };
 		C26E58D92634AAD4009B0C04 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E58D82634AAD4009B0C04 /* TransactionsViewController.swift */; };
 		C678F09001D6078FA9D2B882 /* Pods_money_management_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030641393E7412137AD934F0 /* Pods_money_management_appTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,8 +65,7 @@
 		9DDB0BEBE8C9CA8CFA8BE11D /* Pods-money-management-app-money-management-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-management-app-money-management-appUITests.debug.xcconfig"; path = "Target Support Files/Pods-money-management-app-money-management-appUITests/Pods-money-management-app-money-management-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A21A1604D69AAA208EED7DCA /* Pods-money-management-app-money-management-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-management-app-money-management-appUITests.release.xcconfig"; path = "Target Support Files/Pods-money-management-app-money-management-appUITests/Pods-money-management-app-money-management-appUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BC4C8BFAB629A49688041A12 /* Pods-money-management-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-management-appTests.debug.xcconfig"; path = "Target Support Files/Pods-money-management-appTests/Pods-money-management-appTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C26E58C626349B6A009B0C04 /* ExpensesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesCell.swift; sourceTree = "<group>"; };
-		C26E58CB26349BA8009B0C04 /* DepositsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositsCell.swift; sourceTree = "<group>"; };
+		C26E58CB26349BA8009B0C04 /* InputsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputsCell.swift; sourceTree = "<group>"; };
 		C26E58D82634AAD4009B0C04 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,8 +144,7 @@
 				5E8FB34F2633A0FB00EA6096 /* LoginViewController.swift */,
 				5E8FB3542633A16700EA6096 /* MainViewController.swift */,
 				C26E58D82634AAD4009B0C04 /* TransactionsViewController.swift */,
-				C26E58C626349B6A009B0C04 /* ExpensesCell.swift */,
-				C26E58CB26349BA8009B0C04 /* DepositsCell.swift */,
+				C26E58CB26349BA8009B0C04 /* InputsCell.swift */,
 			);
 			path = "money-management-app";
 			sourceTree = "<group>";
@@ -419,10 +416,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26E58D92634AAD4009B0C04 /* TransactionsViewController.swift in Sources */,
-				C26E58CC26349BA8009B0C04 /* DepositsCell.swift in Sources */,
+				C26E58CC26349BA8009B0C04 /* InputsCell.swift in Sources */,
 				5E8FB3502633A0FB00EA6096 /* LoginViewController.swift in Sources */,
 				5EE9B59C262F632200389E16 /* AppDelegate.swift in Sources */,
-				C26E58C726349B6A009B0C04 /* ExpensesCell.swift in Sources */,
 				5EE9B59E262F632200389E16 /* SceneDelegate.swift in Sources */,
 				5E8FB3552633A16700EA6096 /* MainViewController.swift in Sources */,
 			);
