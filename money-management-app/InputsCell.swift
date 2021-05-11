@@ -1,5 +1,5 @@
 //
-//  ExpensesCell.swift
+//  DepositsCell.swift
 //  money-management-app
 //
 //  Created by Erlis Ibraimi on 24.4.21.
@@ -7,11 +7,13 @@
 
 import UIKit
 
-class ExpensesCell: UITableViewCell {
+class InputsCell: UITableViewCell {
 
-    @IBOutlet weak var dateExpense: UILabel!
-    @IBOutlet weak var categoryExpense: UILabel!
-    @IBOutlet weak var expenses: UILabel!
+    
+    @IBOutlet var type: UILabel!
+    @IBOutlet var date: UILabel!
+    @IBOutlet var category: UILabel!
+    @IBOutlet var amount: UILabel!
     
     
     override func awakeFromNib() {
