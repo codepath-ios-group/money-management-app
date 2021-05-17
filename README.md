@@ -35,8 +35,7 @@ Users will insert expenses and deposits, as well as their category, and it will 
 - [x] User can input a deposit.
 - [x] User can categorize expenses.
 - [x] User can see a budget.
-- [ ] User can properly see their inputs with the proper constraints.
-- [ ] User can see how much they've spent and earned.
+- [x] User can see how much they've spent and earned.
 
 **Optional Nice-to-have Stories**
 
